@@ -1,9 +1,9 @@
 Day 1:
-Creating and activating a virtual environment (env) is a good practice when you're working on a Python project to manage dependencies and isolate them 
+**install python 3.11.7 version from the offical site. to check if you have finished the installation- go to cmd- pytthon --version.
+**Creating and activating a virtual environment (env) is a good practice when you're working on a Python project to manage dependencies and isolate them 
 from the system-wide Python installation.
- 
+ **To cereate a virtual environment: in visual studio code- ctrl+shift+p- create new environment-select the path- enter
 To create:
- 
 python -m venv myenv
 or
 cmd command in vs
@@ -19,7 +19,7 @@ conda activate venv/
 has context menu
 
 ---------------------------------------
-DAY2:
+DAY2: 3-May-2024
 
 datatypes: Numbering, sequnecing, mapping, boolean,none
 Array: 
@@ -27,7 +27,7 @@ Array:
    listobj-[1,2,3,4,5]
   print("First index",listobj[0])
     print("First index",listobj[-1])
-3-May-2024
+
 
 ++Basic Data Structures
 
