@@ -1,0 +1,29 @@
+Day 1:
+Creating and activating a virtual environment (env) is a good practice when you're working on a Python project to manage dependencies and isolate them 
+from the system-wide Python installation.
+ 
+To create:
+ 
+python -m venv myenv
+or
+cmd command in vs
+conda create -p venv python==3.11 -y
+ 
+to activate :
+ 
+myenv\Scripts\activate
+ 
+or
+ 
+conda activate venv/
+has context menu
+
+---------------------------------------
+DAY2:
+
+datatypes: Numbering, sequnecing, mapping, boolean,none
+Array: 
+1. LIST-it is muttable, -> 
+   listobj-[1,2,3,4,5]
+  print("First index",listobj[0])
+    print("First index",listobj[-1])
