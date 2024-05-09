@@ -1,0 +1,31 @@
+
+DAY 3:
+CONDITIONS- If else conditions,elif, else 
+tables
+LOOPS - for, while
+- breaks, pass, continue in loops.
+- string manipulation technique
+
+*indexing- list, length
+-- text-"Python"
+  len(text)  --outpt-6//it counts length not by indexing
+
+*cases - lowercase, uppercase, capitalize,istitle
+text=""hello world"
+print("lower", text.lower())
+
+*STRIP- lstrip,rstrip
+
+text=""hello world"
+print("Stripped text", text.strip())
+print("Stripped text", text.rstrip())
+
+*SPLIT:
+sentence= "I am sentence"
+words= sentence.split()
+print("split words",words)
+
+
+*TEXT.REPLACE
+
+*"++",JOIN
