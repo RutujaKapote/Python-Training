@@ -1,5 +1,26 @@
 DAY2: 3-May-2024
 
+------------------#Variables:
+#1. integer
+name = "Rutuja"
+age = 24
+print(name)
+print(age)
+
+#2. Float
+name = "Anshul"
+age = 24.1
+print(name)
+print(age)
+
+#Boolean
+name = "Anshul"
+age =15
+is_adult=False
+print(name)
+print(age)
+
+
 datatypes: Numbering, sequnecing, mapping, boolean,none
 Array: 
 1. LIST-it is muttable, -> 
@@ -19,6 +40,15 @@ a = 3+4i
 
 String
 a = "Hello"
+#uppercase, lowercase,find, replace
+name="Rutu"
+print(name.upper())
+#Exercise 2: Write a prg to find letter capital R
+print(name.find('utu'))
+#Exercise 3: Index start from 0 
+print(name.replace("Rutu","Rasika"))
+print(name)
+
 
 boolean
 a = 0
