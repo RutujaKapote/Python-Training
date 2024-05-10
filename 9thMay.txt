@@ -29,6 +29,17 @@ else:
 
 
 -----------------------------------------------------------------------
+-->LOOPS:
+1. WHILE LOOP:
+i = 1
+while i <= 5:
+    print(i)
+    i =  i + 1     --if we remove this line loop will go in infinite loop
+
+2. FOR LOOPS
+for item in range(5):
+print(item +i)
+
 CONDITIONS- If else conditions,elif, else 
 tables
 LOOPS - for, while
