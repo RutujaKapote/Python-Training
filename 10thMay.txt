@@ -3,7 +3,20 @@ functions
 objects and classes.
 Constructor 
 Methods 
-
+# 1. FUNCTIONS:
+-> IN-BUILT: int,str,boolean already exisiting to be used
+-> MODULE: when related variables stored togther  in a module
+   SOLUTION:
+           from math import sqrt
+           print(sqrt(16))
+-> USER DEFINED: defined by user itself.
+   SOLUTION:
+          Syntax:   def function_name(paramter):
+   Eg:
+          def print_sum(first, second):
+          print(first + second)
+    print_sum(1,2) 
+---------------------------------------------------------------------------------------------------------------
 Q. calculator question: Create a simple calculator which will use all function types lambda function, user defined function.
 Which will habe the ability to give output of following:
 Addition,
