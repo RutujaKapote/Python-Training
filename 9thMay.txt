@@ -29,3 +29,178 @@ print("split words",words)
 *TEXT.REPLACE
 
 *"++",JOIN
+-----------------------------------------------------------------------
+
+Day 3
+
+Conditional statements (if, elif, else)
+
+Loops (for and while loops)
+
+Loop control statements (break, continue)
+
+Strings and String Manipulation
+
+Dictionary Manipulatio
+
+# IF 
+
+a = 5
+
+if a == 5:
+    print("Correct")
+Correct
+name = input("Name : ")
+age = int(input("Age : "))
+
+if age<0:
+    print("Invalid")
+elif age<2:
+    print("Hey Baby")
+elif age<18:
+    print("Yo Teenager")
+elif age > 18:
+    citizenship = input("Are you Indian Y/N?")
+    if citizenship == "Y":
+        print(f"Hellow {name}, You are eligible to vote...")
+    else:
+        print("U can't vote.")
+Hellow Raj, You are eligible to vote...
+condition = input("Enter your condition : ")
+if eval(condition) == True:
+    print("In If")
+elif condition == True:
+    print("In ElIf")
+else:
+    print("Else")
+In If
+## Loops
+#For Loop
+
+for iterator in range(10):   # range(From : To : Counter)
+    print(iterator)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+# While 
+n = 5
+
+while n:
+    print(n)
+    n-=1
+5
+4
+3
+2
+1
+x = 12
+
+
+for i in range(1,11):
+    print(x*i)
+12
+24
+36
+48
+60
+72
+84
+96
+108
+120
+x = 12
+n= 1
+
+while n!=11:
+    print(n*x)
+    n+=1
+12
+24
+36
+48
+60
+72
+84
+96
+108
+120
+# Simple game
+
+import random
+
+s = random.randint(1,25)
+guess = 3
+
+while guess:
+    guess-=1
+    a = int(input("Enter Guess : "))
+    if a==s:
+        print("Correct Guess!")
+        break  # End the loop
+    elif a>s:
+        print("You guessed a larger number")
+        continue # Will move to next part of loop, will not run remaining part of current loop
+    elif a:
+        pass  # Kuch nahi karega
+    else:
+        print("You guessed a smaller number")
+        continue
+You guessed a larger number
+You guessed a smaller number
+You guessed a smaller number
+# String
+a = "Rutuja"
+b = "Kapote"
+
+print(a+" "+b)
+Vinay Ghate
+a = "Rutuja"
+b = "Kapote"
+c =  a+" "+b
+
+print(c.count("a"))
+2
+a = "Rutuja"
+b = "Kapote"
+
+print(f"My name is {a} {b}")
+My name is Rutuja Kapote
+a = "Rutujay"
+
+a[:2:]
+'Vi'
+a = "Vinay"
+
+print(a.lower())
+print(a.upper())
+print(a.capitalize())
+print(a.istitle())
+vinay
+VINAY
+Vinay
+True
+a = "    Rutuja Kapote         "
+
+print(a.strip())
+print(a.lstrip())  # To remove left spaces
+print(a.rstrip())  # To remove right spaces
+Rutuja Kapote
+Rutuja Kapote         
+       Rutuja Kapote
+a = "Rutuja"
+
+print(" ".join(a))
+V i n a y
+a = "ahahahahahahhahahahahha"
+
+print(a.replace('a','h'))
+print(a.replace('a','h',1))
+hhhhhhhhhhhhhhhhhhhhhhh
+hhahahahahahhahahahahha
