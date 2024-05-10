@@ -12,7 +12,7 @@ Multiplication,
 Division,
 Power.
 Write the code in python.
-Solution: def add(a, b):
+Solution1: def add(a, b):
     return a + b
 
 multiply = lambda a,b : a * b
@@ -33,3 +33,22 @@ print("Multiplication:", multiply(num1, num2))
 print("Division:", divide(num1, num2))
 print("Subtraction:", subtract(num1, num2))
 print("Power:", power(num1, num2))
+---------------------------------------------------
+Self Solution2: 
+first = input("enter the first num")
+operator = input("enter operator(+,-,/,*): ")
+second = input("enter the secnd num")
+first = int(first)
+second = int(second)
+
+if operator == "+":
+   print(first + second)
+elif operator == "-":
+      print(first - second)
+elif operator == "*":
+        print(first * second)
+elif operator == "%":
+   print(first % second)
+else:
+     print("invalid operator")
+
