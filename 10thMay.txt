@@ -1,0 +1,35 @@
+Day 4:
+functions
+objects and classes.
+Constructor 
+Methods 
+
+Q. calculator question: Create a simple calculator which will use all function types lambda function, user defined function.
+Which will habe the ability to give output of following:
+Addition,
+Subtraction, 
+Multiplication,
+Division,
+Power.
+Write the code in python.
+Solution: def add(a, b):
+    return a + b
+
+multiply = lambda a,b : a * b
+
+def divide(a, b):
+    return a / b
+
+def subtract(a, b):
+    return a - b
+
+power = lambda a, b:a ** b
+
+num1 = float(input("A : "))
+num2 = float(input("B : "))
+
+print("Addition:", add(num1, num2))
+print("Multiplication:", multiply(num1, num2))
+print("Division:", divide(num1, num2))
+print("Subtraction:", subtract(num1, num2))
+print("Power:", power(num1, num2))
