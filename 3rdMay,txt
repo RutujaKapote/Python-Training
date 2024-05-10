@@ -23,14 +23,44 @@ print(age)
 
 datatypes: Numbering, sequnecing, mapping, boolean,none
 Array: 
-1. LIST-it is muttable, -> 
+1. LIST-it is muttable, 
+-> 
+ Solution1:
    listobj-[1,2,3,4,5]
-  print("First index",listobj[0])
-    print("First index",listobj[-1])
+   print("First index",listobj[0])
+ print("First index",listobj[-1])
 
+Solution2:
+marks = [98,67,78]
+print(marks[0])    #print according to index0, 1, 2
+print(marks[-1])  #print the last one
+print(marks[0:2])   #print only 1st 2 marks
+print(marks[1:3])
 
+for score in marks:
+    print(score)
+
+Solution3:
+
+#append operation- to add it all together
+marks = [98,67,78]
+marks.append(99)
+print(marks)
+
+#----insert
+marks.insert(1,56)  #it will insert 99 in 1 index number
+print(len(marks))  #LENGTH-NUMBER OF ITEMS
+
+#----print list using while loop
+i =0
+while i<len(marks):
+    print(marks[i])
+    i = i+1
+
+#marks.clear()
+print(marks)    
 ++Basic Data Structures
-
+------------------------------------------------------------------
 Number
 a = 5
 a = 2.31
