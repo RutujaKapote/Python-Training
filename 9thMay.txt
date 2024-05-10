@@ -1,5 +1,34 @@
 
 DAY 3:
+
+-----------IF ELSE CONDITION:
+#---------IF ELSE
+age =19
+
+if age >=18:
+    print("You are eligible for voting")
+    print("you can vote")
+
+
+    print("Thanks")
+------------------------------------------------------------------------
+#--------ELIF, ELSE CONDITION
+age =2
+
+if age >=18:
+    print("You are eligible for voting")
+    print("you can vote")
+elif age<18 and age>3:
+    print("you are in school")
+
+else:
+    print("you ae a child")    
+
+    print("Thanks")
+
+
+
+-----------------------------------------------------------------------
 CONDITIONS- If else conditions,elif, else 
 tables
 LOOPS - for, while
