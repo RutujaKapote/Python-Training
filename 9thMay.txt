@@ -35,7 +35,7 @@ i = 1
 while i <= 5:
     print(i)
     i =  i + 1     --if we remove this line loop will go in infinite loop
-
+-------------------------------------------------------------------------------------
 2. FOR LOOPS
 for item in range(5):
 print(item +i)
@@ -70,14 +70,32 @@ print("split words",words)
 
 *"++",JOIN
 -----------------------------------------------------------------------
+#--Loop control statements (break, continue)
 
-Day 3
 
-Conditional statements (if, elif, else)
+#-------------------Loop control statements (break, continue)
+students = ["Avi", "Nakul", "Radha", "Rani", "Kishan"]
+#print all the names before Kishan
+for student in students:
+    if student == "Rani":
+        break;   #contiue;
+print(student)  
 
-Loops (for and while loops)
 
-Loop control statements (break, continue)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Strings and String Manipulation
 
