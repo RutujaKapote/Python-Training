@@ -23,12 +23,18 @@ print(age)
 
 datatypes: Numbering, sequnecing, mapping, boolean,none
 Array: 
-1. LIST-it is muttable, 
--> 
- Solution1:
+
+#- LIST: 
+-> a = [1,2,3,4,5]
+-> a = ['a','s']
+- Indexing is from 0 
+- last item -1
+- Mutable - Can add data 
+
+Solution1:
    listobj-[1,2,3,4,5]
    print("First index",listobj[0])
- print("First index",listobj[-1])
+   print("First index",listobj[-1])
 
 Solution2:
 marks = [98,67,78]
@@ -41,7 +47,6 @@ for score in marks:
     print(score)
 
 Solution3:
-
 #append operation- to add it all together
 marks = [98,67,78]
 marks.append(99)
@@ -61,14 +66,48 @@ while i<len(marks):
 print(marks)    
 ++Basic Data Structures
 ------------------------------------------------------------------
-Number
+#- TUPLE
+ -> a = (1,2,4,4,2)
+ -> Immutable - Can't add data,or edit
+
+Solution1:
+marks =(95,96,97,97,97)
+print(marks.count(95))
+print(marks.index(97)) 
+
+-------------------------------------------------------------------
+#- SETS
+ -> a = (1,2,3,4)
+ -> Data is not repeated
+Solution:
+marks ={95,96,97,97,97}
+
+#print(marks)   #- it will print only unique value , not repeated one
+for score in marks:  
+  print(score)
+----------------------------------------------------------------------
+#- DICTIONARY
+-> a = {a : "Hello", b = 'Hii'}
+-> stored data in keyvalue pair
+
+Solution:
+marks ={"english": 77, "Chemistry":88}
+#information ={"ram":"Ramkishan"}
+print(marks["Chemistry"])
+#print(marks)   #- it will print only unique value , not repeated one
+marks["physics"] = 97;
+print(marks)
+---------------------------------------------------------------------
+#- INTEGER
 a = 5
 a = 2.31
 
-Complex
+#- Complex
 a = 3+4i
+------------------------------------------------------------------------
+#- STRING
 
-String
+Solution:
 a = "Hello"
 #uppercase, lowercase,find, replace
 name="Rutu"
@@ -78,29 +117,14 @@ print(name.find('utu'))
 #Exercise 3: Index start from 0 
 print(name.replace("Rutu","Rasika"))
 print(name)
-
-
-boolean
+--------------------------------------------------------------------
+#- BOOLEAN
 a = 0
 a = True
 a = False
 a = True
 
-List 
-a = [1,2,3,4,5]
-a = ['a','s']
-- Indexing is from 0 
-- last item -1
-- Mutable - Can add data 
 
-Tuple
-a = (1,2,4,4,2)
-- Immutable - Can't add data
 
-Dictonary
-a = {a : "Hello", b = 'Hii'}
-- stored data in keyvalue pair
 
-set 
-a = (1,2,3,4)
-- Data is not repeated
+
