@@ -1,0 +1,105 @@
+15Th MAY,--------------------------------------
+1. File Handling -
+operations: read, write, append, read and write, read binary, write binary.
+read biary: mostly uses pddf files as they are in binary format.
+create  dummy txt file and input some dATA. create new .py file and continue.
+SYNTAX:
+Way1:
+text_file =("sample.txt")
+print(text_file(read))
+text_file(close)
+
+Way2:
+with open("sample.txt",'r') as f:
+print(f.read())
+
+
+way3: read line method: read line by line:
+with open("sample.txt",'r') as f:
+print(f.readline()) ...print line by line
+print(f.readline()  ....it will print first two lines
+
+print(f.read(100))  ...prints text upto 100 characters
+
+f.seek(0)          .....it sets positions at begining. t will start reading text from the 0th position/index.
+print(f.readline())
+
+---------------------------------------------------------------
+WRITE OPERATIONS
+
+with open("sample-copy.txt",'w') as f:
+#f.write("Rutuja")
+pass                 ..........as there is no file named like mentioned above. pass will generate a new file. and write tex rutuja.
+-----------------------------------------------------------------
+APPEND:
+with open("sample-copy.txt",'a') as f:
+#f.write("Rutuja")
+f.write("hello! world")
+----------------------------------------------
+READ-WRITE:
+with open("sample.txt",'r') as f:
+with open("sample-copy.txt",'w') as filecopy:
+for files in f:
+filecopy.write(lines)
+---------------------------------------------
+READ-BNARY, WRITE-BINARY
+with open("sample.txt",'rb') as f:
+with open("sample-copy.txt",'wb') as filecopy:
+for files in f:
+filecopy.write(lines)
+--------------------------------------------
+ERROR HANDLING:
+WAy1: basic
+try:
+    print(e)
+    with open("sample123.txt",'r') as f:
+       print.readline("Rutuja")
+Except exception as e:                ....exception will show which type f eror it is
+      print("file not found",e)
+      -----------------------------------------------------
+   WAY2:
+ try:  
+   with open("sample123.txt",'r') as f:
+        print.readline("Rutuja")
+        print(e)
+Except FileNotFoundError:               
+        print("file not found")
+Except exception as e:               
+        print("varaible not foundd",e)
+      
+----------------------------------------------------------------
+TRAVERSE
+import os
+folder_path ="data"
+
+for i in range(0,5):
+    content ="hello wrold"
+    file_name f"{i}.txt"
+    folder_path =os.path.join(folder_path,file_name)
+    print(file_path)
+    with open(file_name,'w') as f:
+        print.write("Content")
+        
+-------------------------------------------------------------
+remove the hello world from the files, replace hellow world to hi
+import os
+folder_path ="data"
+for file in os.listdir(folder_path):
+    folder_path =os.path.join(folder_path,file_name)
+     with open(file_path,'w') as f:
+        print.write("hi")
+      
+----------------------------------------------------------------
+JSON FILE:  json dump, to replace content use-json load,
+import os
+import json
+folder_path ="data"
+
+for i in range(0,5):
+    content ={"name:" "Rutuja"}
+    file_name f"{i}.txt"
+    folder_path =os.path.join(folder_path,file_name)
+    print(file_path)
+    with open(file_path,'w') as f:
+        json.dump(Content,f)
+        
