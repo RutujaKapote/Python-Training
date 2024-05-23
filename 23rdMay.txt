@@ -1,0 +1,36 @@
+LOGGER
+types: error, debug, info, critical , warning
+
+IMPORT PACKAGAES:
+1. import os: 
+new dir= os.path.join(Current dir,'new folder') ---new folder in same directory
+
+new_file_path = os.path.join(urrent dir,'newfile.txt')
+
+os.listdir
+
+2. PATHLIB - supports newer version. advanced version of os. similr functionalities.
+from pathlib import path
+curent_dir=path(.)
+
+3.pymupdf  --pdf to image
+import fitz #pymupdf
+from PIL import image
+import io
+
+
+REGULAR EXPRESSIONS
+import re
+
+
+
+AL/ML
+
+OPENAi
+langchain
+hugging phase platform
+langgrapgh- graphical representation
+
+
+
+REGUAR EXPRESSIONS
