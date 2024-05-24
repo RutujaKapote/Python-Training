@@ -1,2 +1,10 @@
-FastApi
-Mongodb
+CREATE A VIRTUAL ENVIRONMENT:
+(Ctrl+Shift+P), search for the Python: Create Environment command, and select it.
+select the environment you already have; eg: python 3.11 or so...
+
+MODULE: FastApi
+to installl it: VS CODE
+-- pip install pymongo fastapi uvicorn
+-- to run the main.py file in swagger you need to reload the fastapi use this command: uvicorn main:app --reload   
+-- to run swagger goo to this ink: http://127.0.0.1:8000/docs
+--MONGODB -- create a account if you don't have. then create a cluster.
